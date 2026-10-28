@@ -1,0 +1,32 @@
+{
+  "name": "minibridge",
+  "version": "1.0.0",
+  "description": "Educational cross-chain token bridge using lock-and-mint between Ethereum Sepolia and Polygon Amoy",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "relayer": "ts-node relayer/index.ts"
+  },
+  "keywords": [
+    "cross-chain",
+    "bridge",
+    "ethereum",
+    "polygon",
+    "solidity",
+    "hardhat"
+  ],
+  "author": "Sarthak",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@types/node": "^20.17.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
+
